@@ -1,2 +1,6 @@
-# Kursai base
-24-07-24
+Paulius base
+
+Front 	- 	ReactJS
+Back 	-	NodeJS
+DB		-	MOngoDB
+
