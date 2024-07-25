@@ -3,7 +3,7 @@ import mainStore from "../store/mainStore";
 import {socket} from "../plugins/sockets";
 import SingleUser from "../components/SingleUser";
 
-const LobyPage = () => {
+const LobbyPage = () => {
 
     const {user} = mainStore()
 
@@ -77,4 +77,4 @@ const LobyPage = () => {
     );
 };
 
-export default LobyPage;
+export default LobbyPage;

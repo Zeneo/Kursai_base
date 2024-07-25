@@ -1,7 +1,8 @@
-import './App.css';
+import './css/App.css';
+import './css/main.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import LoginPage from "./pages/LoginPage";
-import LobyPage from "./pages/LobyPage";
+import LobbyPage from "./pages/LobbyPage";
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<LoginPage/>}/>
-                    <Route path="/lobby" element={<LobyPage/>}/>
+                    <Route path="/lobby" element={<LobbyPage/>}/>
                 </Routes>
             </BrowserRouter>
 
